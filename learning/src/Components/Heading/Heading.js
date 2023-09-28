@@ -1,11 +1,11 @@
 import React from 'react'
 import styles from './Heading.css'
 
-export const Heading = () => {
+export const Heading = (props) => {
     return (
         <>
             <h1>
-            Front-end technologies
+            {props.title}
             </h1>
         </>
     )
